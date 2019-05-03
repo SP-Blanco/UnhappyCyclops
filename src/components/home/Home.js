@@ -8,19 +8,7 @@ class Home extends Component {
   }
 
   render() {
-    return (
-      <div className="App">
-        <div className="mainContainer">
-          <header>
-            <div className="title">The Unhappy Cyclops</div>
-            <div className="headerButton">Get to know us</div>
-            <div className="headerButton">Episodes</div>
-            <div className="headerButton">Hit us up</div>
-          </header>
-          <img alt="" className="stewFace" src={stewFace} />
-        </div>
-      </div>
-    );
+    return <img alt="" className="stewFace" src={stewFace} />;
   }
 }
 
